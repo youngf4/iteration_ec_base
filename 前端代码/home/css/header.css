@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1600px;
+    
+}
+
+.center{
+    width:1400px;
+    margin:0 auto;
+    border-top: solid 1px white;
+}
+
+.header{
+    width: 1600px;
+    height: 600px;
+}
+
+.header img{
+    width: 100%;
+    height: 100%;
+}
+
+.tabbar{
+    width:225px;
+    height:75px;
+    margin:50px 0px 0px 100px;
+    text-align: center;
+    line-height:75px;
+    font-family: 仿宋;
+    font-size: 30px;
+    color:white;
+    font-weight:bold;
+    letter-spacing:0.5em;
+    text-indent:0.5em;
+    background-color:#41C7DB;
+    float: left;
+    /* display: inline; */
+}
+
+.center_tabpanel{    
+    margin-top: 175px;
+    position: relative;
+}
+
+.introduction_panel{
+    width:100%;
+}
+
+.intro{
+    width:100%;
+    height:600px;
+    background-color:gray;
+    border:solid 1px goldenrod;
+}
+
+.introduction{
+    background-color:#123289;
+}
+
+.tabpanel{
+    background-color:green;
+    width:100%;
+    height: 600px;
+    position: absolute;
+}
+
+.footer{
+    width:100%;
+    height:200px;
+    background-color:#461821;
+    margin-bottom:10px;
+    /* position: relative; */
+}
