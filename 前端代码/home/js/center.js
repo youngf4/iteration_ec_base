@@ -8,3 +8,11 @@ $(".tabbar").click(function() {
     $(".footer").css("margin-top",height+'px')
 
 });
+
+window.onload = function() {
+    $(".tabpanel").eq(0).css("display", "block");
+    $(".tabpanel").eq(0).siblings().css("display","none")
+    var height_str = $(".tabpanel").eq(0).css("height");
+    var height = Number(height_str.slice(0,height_str.length-2))+175
+    $(".footer").css("margin-top",height+'px')
+}
