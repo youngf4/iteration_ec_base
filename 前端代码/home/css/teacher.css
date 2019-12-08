@@ -1,0 +1,152 @@
+/* 师资力量区域 */
+.teacher{
+    width:100%;
+    height:750px;
+    background-color:blueviolet;
+}
+
+/* 标题区域 */
+.title{
+    width:100%;
+    height:100px;
+}
+
+.title p{
+    margin:10px auto auto 20px;
+    font-size:24px;
+    font-weight: 400;
+}
+
+.title hr{
+    size:1px;
+    color:black;
+    margin-top:50px;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* 师资力量顶部区域 */
+.top_teacher{
+    width: 100%;
+    height:350px;
+    background-color:paleturquoise;
+}
+
+/* 顶部区域左侧部分 */
+.left_top_teacher{
+    width: 750px;
+    height:340px;
+    margin-left: 50px;
+    background-color:palegreen;
+    float: left;
+}
+
+/* 主要信息---大串文字 */
+.info_faculty p{
+    width:730px;
+    margin:20px auto 0;
+    background-color:purple;
+    text-indent: 2em;
+    font-size: 18px;
+}
+
+/* 主要信息---数据展示 */
+.data_faculty{
+    width:730px;
+    height:120px;
+    background-color:royalblue;
+    margin:0 auto;
+}
+
+/* 教师数据统计信息 */
+.show_data_faculty li{
+    list-style: none;
+    text-align: center;
+    margin-top:20px;
+    margin-left: 100px;
+    float: left;
+}
+
+/* 数字 */
+.num{
+    font-size: 28px;
+}
+
+/* 顶部区域右侧部分 */
+.right_top_teacher{
+    width:500px;
+    height: 340px;
+    margin-left:50px;
+    background-color:peru;
+    float: left;
+}
+
+/* 专业负责人与教务秘书 */
+.lead_teacher{
+    margin-left: 50px;
+    list-style: none;
+    text-align: center;
+    float: left;
+}
+
+/* 专业负责人与教务秘书 图片大小设置*/
+.lead_teacher img{
+    width:200px;
+    height:200px;
+}
+
+.lead_teacher p{
+    background-color:#99FFFF;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* 师资力量底部区域 */
+.bottom_teacher{
+    width:100%;
+    height: 300px;
+    background-color:cyan;
+    overflow: hidden;
+}
+
+/* 教师信息展示区域 */
+.show_teacher_info{
+    width:9999px;
+}
+
+/* 教师信息块：图片+名字 */
+.teacher_info{
+    width:200px;
+    height:350px;
+    list-style:none;
+    text-align: center;
+    margin-left: 66.67px;
+    float: left;
+    animation: scrollAuto 24s 0.5s linear infinite alternate;
+
+}
+
+/* 教师信息中的图片 */
+.teacher_info img{
+    width:200px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+/* 教师信息中的名字 */
+.teacher_info a{
+    font-size:18px;    
+    text-decoration: none;
+}
+
+
+/* 教师信息展示的动画 */
+@keyframes scrollAuto{
+    from {
+        transform: translateX(1500px)
+    }
+    to {
+        transform: translateX(-1500px)
+    }
+}
+
