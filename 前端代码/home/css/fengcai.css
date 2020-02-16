@@ -3,3 +3,70 @@ background-color:transparent;
 width:100%;
 height: 850px;
 position:absolute;}
+.society{
+    background-color: lightslategray;
+    width:225px;
+    height:230px;
+    position:absolute;
+    left:100px;
+    top:60px;
+    text-align: center;
+    line-height: 180px ;
+}
+.classf{
+    background-color: lightsteelblue;
+    width:225px;
+    height:230px;
+    position:absolute;
+    left:100px;
+    top:260px;
+    text-align: center;
+    line-height: 180px ;
+}
+.classsmate{
+    background-color: skyblue;
+    width:225px;
+    height:230px;
+    position:absolute;
+    left:100px;
+    top:460px;    
+    text-align: center;
+    line-height: 180px ;
+}
+.fontt{
+    font-family: Baskerville;
+    font-size: 25px;
+    color: white;
+}
+.backgroundd{
+background-color:black;
+position:absolute;
+top:60px;
+left:330px;
+width:1000px;
+height:630px;
+}
+.bg1{
+    background-color:white;
+    position:absolute;
+    top:60px;
+    left:330px;
+    width:1000px;
+    height:630px; 
+}
+.bg2{
+    background-color:pink;
+position:absolute;
+top:60px;
+left:330px;
+width:1000px;
+height:630px;
+}
+.bg3{
+    background-color:blue;
+position:absolute;
+top:60px;
+left:330px;
+width:1000px;
+height:630px;
+}
